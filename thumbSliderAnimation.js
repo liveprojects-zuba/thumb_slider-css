@@ -1,6 +1,6 @@
-var trigger = document.querySelector(".trigger-overflow");
+var trigger = document.getElementsByClassName(".trigger-overflow").value;
 
 window.setInterval(function() {
-  var x = parseInt((trigger.getBoundingClientRect().top)/5);
+  var x = parseInt(trigger).toString();
   console.log(x);
 }, 250);

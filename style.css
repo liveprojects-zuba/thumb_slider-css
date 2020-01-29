@@ -4,29 +4,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    background-color: #330033;
+    height: 100vh;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+input{ 
+    margin: auto;
+    -webkit-appearance: slider-vertical;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    width: 30px;
+    cursor: pointer;
 }
 
-.container::-webkit-scrollbar {
-  display: none;
+::-webkit-slider-runnable-track {
+    background: #ddd;
 }
 
-.container {
-  background-color: #DADADB;
-  width: 100px;
-  height: 500px;
-  overflow: scroll;
-}
-
-.trigger-overflow {
-  background-color: #01FFFF;
-  width: 100px;
-  height: 500px;
-  margin-top: 500px;
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px; /* 1 */
+    height: 60px;
+    background: #ddd;
+    box-shadow: 0 590px 0 60vw dodgerblue;
+    border: 2px solid #999;
 }

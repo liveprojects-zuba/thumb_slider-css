@@ -3,6 +3,7 @@
         <head>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="style.css">
+            <!--defer will make sure that the JS doesn't run until the DOM is fully loaded-->
             <script defer type="text/javascript" src="thumbSliderAnimation.js"></script>
             
             <title>ThumSliderTest</title>
@@ -10,7 +11,8 @@
 
         <body>
             <div class="container">
-                <div class="trigger-overflow">&nbsp;</div>
+                <!--<div class="trigger-overflow"> &nbsp;</div>-->
+                <input class ="triggerNum" type="range" min="0" max="100">
             </div>
         </body>
     </html>
