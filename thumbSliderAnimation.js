@@ -1,6 +1,8 @@
-var trigger = document.getElementsByClassName(".trigger-overflow").value;
+document.getElementById("triggerNum").oninput = function(){
+    changeSpeedValue();
+}
 
-window.setInterval(function() {
-  var x = parseInt(trigger).toString();
-  console.log(x);
-}, 250);
+function changeSpeedValue(speedValue){
+    var speedValue = document.getElementById("triggerNum").value;
+    console.log(speedValue);
+}

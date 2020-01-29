@@ -8,23 +8,29 @@ body{
     height: 100vh;
 }
 
+.container{
+    width: 6vh;
+}
+
 input{ 
     margin: auto;
     -webkit-appearance: slider-vertical;
     position: relative;
     overflow: hidden;
     height: 50vh;
-    width: 30px;
+    width: 5vh;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 ::-webkit-slider-runnable-track {
+    width: 10vh;
     background: #ddd;
 }
 
 ::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 30px; /* 1 */
+    width: 10vh;
     height: 60px;
     background: #ddd;
     box-shadow: 0 590px 0 60vw dodgerblue;
