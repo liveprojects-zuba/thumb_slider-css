@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 6vh;
+    width: 5vh;
 }
 
 input{ 
@@ -24,6 +24,7 @@ input{
 }
 
 ::-webkit-slider-runnable-track {
+    height: 80%;
     width: 10vh;
     background: #ddd;
 }
