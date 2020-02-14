@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #330033;
+    background-color: rgba(51,0,51,0.85);
     height: 100vh;
 }
 
